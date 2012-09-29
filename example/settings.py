@@ -100,6 +100,7 @@ MIDDLEWARE_CLASSES = (
 )
 
 AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
     'django_browserid.auth.BrowserIDBackend',
 )
 
